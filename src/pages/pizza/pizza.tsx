@@ -1,7 +1,7 @@
 import React from 'react'
 import pizzadatas from '../pizza/pizzaData/pizzadatas'
  const Pizza = () => {
-  console.log(pizzadatas)
+  console.log(pizzadatas,"pizzadatas")
   return (
     <div>
       { pizzadatas && pizzadatas?.map((pizza:any, index:any) => (
